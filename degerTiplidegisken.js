@@ -20,8 +20,8 @@
 //     console.log("eşit değildir")
 // }
 // ? burada birbirlerini etkiler çünkü dizi2 1 atadık
-let dizi1=[1,2,3];
-let dizi2=dizi1;
-dizi2.push(12);
-console.log(dizi1);
-console.log(dizi2);
+// let dizi1=[1,2,3];
+// let dizi2=dizi1;
+// dizi2.push(12);
+// console.log(dizi1);
+// console.log(dizi2);

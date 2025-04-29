@@ -1,0 +1,1 @@
+// ? elementleri secip onun üzerinde işlem yapmaya denir
