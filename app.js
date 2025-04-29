@@ -183,3 +183,150 @@ if else kullanırken ıllede else kullanamk zorunda degılsın
 //  else{
 //     alert("ehliyet sınavına katılamazsınız")
 //  }
+
+
+//  TÜR DÖNÜŞÜMLERİ
+
+// let aDeger=5;
+// let bDeger="10";
+// let c = Number(b); //parseInt("10") olur
+// console.log(typeof c)
+// console.log("toplam", a+c)
+
+// let aDeger=5;
+// let bDeger="10";
+// let c = String(b); //(55).toString() olur
+// console.log(typeof c)
+// console.log("toplam", a+c)
+
+// let aNun =Number("B") //bu bır sayı degıl dıyor
+// console.log(a)
+
+//DEBUGGER breakpoint ve TOOLTİP KULLANIMI
+
+// TOOLTİP:VSCODE ACIKLAMA SATIRI GELIYOR ONA DENIR entera basmadan gelen acıklama
+
+// function OrtalamaBul(vize1,vize2,finalNot){
+// return "75"
+// }
+
+// breakpoint: yukarıdan asagıya calıstır fakat 300 satırlık kod yazdın bır yerde bir hata var kodda hatayı duzeltıyorsun
+// derleyıcının butun kodları mılısanıye olarak calıstırmasını engelleyerek breakpoınt kullanarak adım adım calıstırmasını saglamak
+// için breakpoint kullanıyoruz kodun basına debugger yazıyoruz
+// debugger;  //source kısmında dbegger modunda calıstu en sagda oka bastıkca sonuclar gelır
+// let a=10; 
+// let b=15;
+// let c=14
+// console.log(a+b+c)
+
+
+//DÖNGÜLER (LOOKS)
+// 1-FormData 
+// 2-WHİLE
+// 3-Do-while
+// 4-ForEach //dizilerde kesınlıkle foreach kullanılcak kesınlıkle
+
+// for (let i=1; i<=10; i++){
+// console.log(i)
+// }
+// for(let ikiser=0; ikiser<=10; ikiser+=2){
+
+//     console.log(ikiser)
+// }
+// for(let ikiser=1; ikiser<=10; ikiser++){
+    
+//    if(ikiser%2==1){
+//     console.log("zeynep")
+//    }
+//    else{
+
+
+//    console.log("tek değil")
+//    }
+// }
+
+
+
+// let toplam=0;
+// for(let i=10; i>=1; i--){
+//     toplam=toplam+i;
+//     console.log(i);
+// }
+// console.log("toplam",toplam)
+
+
+//break-contınue
+//break mesela 8 e gelınce donguyu kıralım 8 gelınce cıkalım sadece dongulere ozgudur whıle vs dahıl kulalnılabılrı
+//1 den 10 kadar sayıları yazdıralım 8 e geldıgımızde donguden cıkarım
+
+// for(let i=1; i<=10; i++){
+//     if(i==8){
+//         break
+//     }
+//    console.log("9 10 YAZDIRMADIK",i)
+// }
+
+// // ? Continue
+// // //1 2 3 4 5 6 7  9 
+// for(let i=0; i<=10; i++){
+// if(i==8){
+//     continue;
+// }
+// console.log("8 YAZDIRMADIK 9 10 YAZILI",i)
+// }
+
+//? METODLAR (FUNCTİONS OLARAK DA GEÇEBİLİR)
+// ? parca par kodlayıp bır sayfaya eklemeye denır kodun
+//? okunmadsı gelıstırılmesı ıcın gereklı olan bır sey ama aynı sayfada da kullanırsın buda 
+// ? saglıklı olmaz senden
+// ? senden sonraki yazılımcı için sıkıntılı bır durumdur bir 
+// ? kere yazıp lazım olunca cagırmak daha saglıklı 
+// parametresim ve geriye deper dondurmeden en basit metodtur
+//function Yazdir(){
+  //kodlar yazdırılıcak
+  // console.log("zeynep")
+//}
+//Yazdir()
+// ? parametreli methodlar
+//ismne soyisme farklı degerler verebılır
+// function Yazdir(isim,soyisim){
+//     debugger;
+//     console.log(isim+ "" +soyisim)
+// }
+// debugger;
+// Yazdir("zeynep","bas")
+// function cube(sayi){
+//     console.log(sayi*sayi*sayi)
+// }
+// cube(3)
+
+// let yasData=Number(prompt("yasınızı giriniz"));
+// function kontrolEt(yas){
+//     if(yas>18){
+//         console.log("Ehliyet alabılırsınız")
+//     }
+//     else {
+//         console.log("ehliyet alamazsın")
+//     }
+// }
+// kontrolEt(yasData)
+
+//? GERİYE DEĞER DONDUREN METOT (return)
+//? bir degerı methodun dısarıya cıkarmak,tasımak ıcı kuallnılır
+//? bir methodu bitiren anahtar kelimedir.
+//? void geriye deger dondurmeyen function yazdir(){console.log(zeynep)} yazdir() budur
+
+// function cube(sayi){
+//     let sonuc=sayi*sayi*sayi
+//    return sonuc
+// }
+// //sonuc;//boyle donduremezsın returnle cevırebılırsın
+// let donenDeger=cube(3)
+// console.log(donenDeger)
+
+// function dondurenMethod(isim){
+//     let zeynep=isim+isim
+// return zeynep
+// }
+// let sonuc=dondurenMethod("zeynep")
+// console.log(sonuc)
