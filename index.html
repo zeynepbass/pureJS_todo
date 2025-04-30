@@ -1,30 +1,143 @@
-<!-- // * kodlar yukarıdan asagıya okunur *// -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ToDo Uygulaması</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
 
+    .todo-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .todo-input {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .todo-input input {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .todo-input button {
+      padding: 10px 15px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: #f9f9f9;
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    li .delete-btn {
+      background-color: #dc3545;
+      border: none;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .clear-btn {
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+      background-color: #6c757d;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <script src="app.js"></script>
-    <script src="dersOrtasiBulma.js"></script>
-    <script src="bedenKitleEndeksi.js"></script>
-    <script src="benzinIstasyonu.js"></script>
-    <script src="lova.js"></script>
-    <script src="carpimTablo.js"></script>
-    <script src="function(method)Ornek.js"></script>
+
+  <div class="todo-container">
+    <div class="card-title">eskim baslık butona baslı</div>
+    <div class="card-body">
+      <h2>Eski Başlık</h2>
+      <p>Bir açıklama</p>
+    </div>
+    
+    <div class="todo-input">
+      <input type="text" id="todoInput" placeholder="Bir görev gir...">
+      <button  class="ekle">Ekle</button>
+    </div>
+
+    <ul class="todoList">
+      <li class="list-group-item">0</li>
+      <li class="list-group-item">1</li>
+      <li class="list-group-item">2</li>
+      <li cclass="list-group-item">3</li>
+    </ul>
+<a href="#" onclick="this.textContent='zeynep'">data</a>
+<button onclick="ChangeTitle()">degıs</a>
+    <button class="clear-btn"  id="btn">Tümünü Temizle</button>
+  </div>
+
+
+  <!-- <script src="app.js"></script>
+  <script src="proje/dersOrtasiBulma.js"></script>
+  <script src="proje/bedenKitleEndeksi.js"></script>
+  <script src="proje/benzinIstasyonu.js"></script>
+  <script src="proje/lova.js"></script>
+  <script src="proje/carpimTablo.js"></script>
+  <script src="proje/UrunAramaUygulaması.js"></script>
+  <script src="proje/kitapBuLmaUygulamasi.js"></script>
+  <script src="proje/kitapbulmaUygulamasHoca.js"></script>
+  <script src="proje/function(method)Ornek.js"></script>
   <script src="array.js"></script>
   <script src="diziMethodları.js"></script>
-  <script src="UrunAramaUygulaması.js"></script>
-  <script src="kitapBuLmaUygulamasi.js"></script>
-  <script src="kitapbulmaUygulamasHoca.js"></script>
   <script src="STRİNGMETODLAR.JS"></script>
   <script src="mathMethodları.js"></script>
   <script src="dateSiniflari.js"></script>
   <script src="degerTiplidegisken.js"></script>
-  <script src="DOM.js"></script>
-</body>  
-
+ -->
+ <!-- /* <script src="DOM.js"></script> */ -->
+ <!-- <script src="selectors(seciciler)-DOM.js"></script> -->
+ <!-- <script src="style-Dom.js"></script>  -->
+  <!-- <script src="eventler.js"></script> -->
+  <!-- <script src="sessionStroge.js"></script> -->
+  <!-- <script src="localStorage.js"></script> -->
+  <script src="proje/todo.js"></script>
+</body>
 </html>

@@ -1,10 +1,10 @@
 //document write ile cıktı verme
-document.write("sdfsdf <br/>")
-document.write("sdfsdf")
-console.log("zeynep")
+// document.write("sdfsdf <br/>")
+// document.write("sdfsdf")
+// console.log("zeynep")
 
-let a=5;
-let b=10;
+// let a=5;
+// let b=10;
 // console.log(a>5 ? "" : alert("dogru"))
 
 
@@ -29,25 +29,25 @@ let b=10;
 
 
 
- var adeger=5;//GLOBAL SCOPE SEN bUNA HER YERDEN ERISEBILIRISN kıvırcık parantez dısında plmalı
- function method1(){
-    console.log(adeger)
-}
-method1()
+//  var adeger=5;//GLOBAL SCOPE SEN bUNA HER YERDEN ERISEBILIRISN kıvırcık parantez dısında plmalı
+//  function method1(){
+//     console.log(adeger)
+// }
+// method1()
 
  //FUNCTİON SCOPE TANIMLANDIGI ZAMAN O DEGISKENE KIVIRCIK PARANTEZLER ICINDEN ERISEBILIRSIN 
-function method2(){
-    var sayi=10;
-    console.log(sayi)
+// function method2(){
+//     var sayi=10;
+//     console.log(sayi)
 
-   // ? BLOK SCOPE FUNCTİON ICINDE İF WHİLE FOR ACARSAN BLOCK SCOPE OLUP
+//     ? BLOK SCOPE FUNCTİON ICINDE İF WHİLE FOR ACARSAN BLOCK SCOPE OLUP
 
     // if(true){
     //   var b=20 // ? block scope
     // }
     // while
-}
-method2();
+// }
+// method2();
 
 
 
@@ -55,18 +55,18 @@ method2();
 
 // ? var ile ilgili tanımlanan her sey function scope olur  blockta bıle tanımlasan function scope ozellıgı gorur
 // ? let/const : block scope oellıgıne ssahıp
-function selamVer(){
-    var selam="herkese selam"; //? fucntion scope
-    if(true){
-        var b=10;
-        let c=10
-        console.log(c)
-    }
+// function selamVer(){
+//     var selam="herkese selam"; //? fucntion scope
+//     if(true){
+//         var b=10;
+//         let c=10
+//         console.log(c)
+//     }
     //console.log(c)//burada patlatır burada erişemezsin
-    console.log(b); 
-    console.log(selam);
-}
-selamVer()
+//     console.log(b); 
+//     console.log(selam);
+// }
+// selamVer()
 
 
 // ? sabit değişmez
@@ -78,17 +78,18 @@ selamVer()
 // ? değiştirebilirsin
 
 
-const user ={
-    username:"zeynep",
-    password:"123"
-}
-user.username="zeynepbas";
-console.log(user)
+// const user ={
+//     username:"zeynep",
+//     password:"123"
+// }
+// user.username="zeynepbas";
+// console.log(user)
 
 
 
 
-/*  *OPERATÖRLER...
+/*  
+! OPERATÖRLER...
 = aritmetik OPERATÖRÜ
 ü ö ş İ ğ BUNLAR DEGISKEN ISMI OLMAZ rakamla degısken olusturmaz ıkıncı kelımeyı buyuk olarak baslatmak laszım
 sorun olmaz ama oyle olmalı
@@ -101,9 +102,9 @@ console.log(a) //a 11 oldu -- ise bir azalrtmaktır
 
 
 /* 
-ATMA OPERAÖTRLERİ
+!ATMA OPERAÖTRLERİ
 
-= ATAMA OPERATÖRÜ
+ = ATAMA OPERATÖRÜ
 == 5==5 ESITTIR MATEMATIKTEKI ESTTIR DEMEK GIBI DUSUN BES BESE EDSITTIR
 let a=1;
 let b=10;
@@ -137,7 +138,8 @@ console.log(sayi)
 
 
 
-/* MANITKSAL OPERATORLER && || ! 
+/*  
+! MANITKSAL OPERATORLER && || ! 
 
 
 
@@ -147,6 +149,7 @@ console.log(sayi)
 
 
 /* DİALOG KUTULARI
+! DİALOG KUTULARI
 ALERT PROMPT CONFŞRM 
 WİNDOW BASINA YAZMANA GEREK YOK
 
@@ -163,10 +166,10 @@ prompt("isminizi giriniz") //input
 
 
 
-/* kOŞUL YAPIALRI 
-if else kullanırken ıllede else kullanamk zorunda degılsın
+// ? kOŞUL YAPIALRI 
+//if else kullanırken ıllede else kullanamk zorunda degılsın
 
-*/
+//
 // let not=40;
 // if(not>50){
 //     console.log("geçtiniz"+not)
@@ -185,11 +188,11 @@ if else kullanırken ıllede else kullanamk zorunda degılsın
 //  }
 
 
-//  TÜR DÖNÜŞÜMLERİ
+//!  TÜR DÖNÜŞÜMLERİ
 
 // let aDeger=5;
 // let bDeger="10";
-// let c = Number(b); //parseInt("10") olur
+//! let c = Number(b); //parseInt("10") olur
 // console.log(typeof c)
 // console.log("toplam", a+c)
 
@@ -202,7 +205,7 @@ if else kullanırken ıllede else kullanamk zorunda degılsın
 // let aNun =Number("B") //bu bır sayı degıl dıyor
 // console.log(a)
 
-//DEBUGGER breakpoint ve TOOLTİP KULLANIMI
+// !DEBUGGER breakpoint ve TOOLTİP KULLANIMI
 
 // TOOLTİP:VSCODE ACIKLAMA SATIRI GELIYOR ONA DENIR entera basmadan gelen acıklama
 
@@ -220,7 +223,7 @@ if else kullanırken ıllede else kullanamk zorunda degılsın
 // console.log(a+b+c)
 
 
-//DÖNGÜLER (LOOKS)
+// !DÖNGÜLER (LOOKS)
 // 1-FormData 
 // 2-WHİLE
 // 3-Do-while
@@ -255,7 +258,7 @@ if else kullanırken ıllede else kullanamk zorunda degılsın
 // console.log("toplam",toplam)
 
 
-//break-contınue
+// ?break-contınue
 //break mesela 8 e gelınce donguyu kıralım 8 gelınce cıkalım sadece dongulere ozgudur whıle vs dahıl kulalnılabılrı
 //1 den 10 kadar sayıları yazdıralım 8 e geldıgımızde donguden cıkarım
 
@@ -266,7 +269,7 @@ if else kullanırken ıllede else kullanamk zorunda degılsın
 //    console.log("9 10 YAZDIRMADIK",i)
 // }
 
-// // ? Continue
+//  ? Continue
 // // //1 2 3 4 5 6 7  9 
 // for(let i=0; i<=10; i++){
 // if(i==8){
@@ -320,7 +323,7 @@ if else kullanırken ıllede else kullanamk zorunda degılsın
 //     let sonuc=sayi*sayi*sayi
 //    return sonuc
 // }
-// //sonuc;//boyle donduremezsın returnle cevırebılırsın
+// sonuc;//boyle donduremezsın returnle cevırebılırsın
 // let donenDeger=cube(3)
 // console.log(donenDeger)
 

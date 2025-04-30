@@ -1,4 +1,4 @@
-//DİZİLERRE BASLAYALIM
+// !DİZİLERRE BASLAYALIM
 // let isimler=["enes","kübra","yakup"];
 // isimler[2]="zeynep";
 // console.log(isimler);
@@ -15,7 +15,7 @@
 
 
 
-//foreach dızılerde kullanıyoruz 
+// !foreach dızılerde kullanıyoruz 
 
 //foreach dongusu
 // let isimler=["zeynep","ali","veli"];
